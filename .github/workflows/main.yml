@@ -1,0 +1,22 @@
+
+name: Build Toot APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract Android project
+        run: |
+          unzip -o Tot_Android_Source.zip -d extracted
+          find extracted -maxdepth 3 -type f | head -100
+
+      - name: Check project files
+        run: |
+          find extracted -type f \( -name "gradlew" -o -name "settings.gradle" -o -name "settings.gradle.kts" \)
