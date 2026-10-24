@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1094074455747",
+    "project_id": "tot-greenhouse",
+    "storage_bucket": "tot-greenhouse.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094074455747:android:d6a6751e9969ffb5a2b476",
+        "android_client_info": {
+          "package_name": "com.hamra.strawberrysales"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpUwYTmK0Udll5cvdB9tVlUvSTegKH5Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
