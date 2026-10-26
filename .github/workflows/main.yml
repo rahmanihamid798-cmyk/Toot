@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o Tot_Android_Source.zip -d extracted
+          unzip -o Tot_Android_Source_fixed.zip -d extracted
           cp google-services.json extracted/app/google-services.json
 
       - name: Set up Java
